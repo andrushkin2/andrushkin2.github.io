@@ -1,0 +1,6 @@
+.gitignore
+.*
+~*
+config/*.yml
+!.gitignore
+!*.example

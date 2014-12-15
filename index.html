@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link href="./client/css/impress-demo.css" rel="stylesheet" >
+    <link href="./impresso.css" rel="stylesheet" >
+    <title>impress.js</title>
+</head>
+
+<body>
+    <div id="impress">
+    <div id="slide0" class="step" data-x="-3000" data-y="0">
+        <q>Презентация в браузере за 10 минут - миф или реальность</q>
+    </div>
+    <div id="slide1" class="step slide" data-x="0" data-y="0">
+        <q>Как все начиналось?</q>
+        <img src="start.jpg">
+    </div>
+
+
+    <div id="slide2" class="step slide" data-x="0" data-y="1000">
+        <q><h1>Слайд 1</h1></q>
+    </div>
+
+
+    <div id="slide3" class="step slide" data-x="0" data-y="2000">
+        <q><h1>Слайд 2</h1></q>
+    </div>
+
+
+    <div id="slide4" class="step slide" data-x="0" data-y="3000">
+        <q class="a"><h1>OP</h1></q>
+        <q class="b"><h2>-OP</h2></q>
+        <q class="c"><h3>-OP!</h3></q>
+        <img src="opa.jpg">
+    </div>
+
+
+    <div id="slide5" class="step slide" data-x="0" data-y="4000">
+        <q><h3>Скучновато, да?</h3></q>
+        <img src="1296070207.jpg">
+    </div>
+
+
+    <div id="slide6" class="step slide" data-x="0" data-y="4000">
+        <div class="small">&nbsp;</div>
+        <div class="mid">&nbsp;</div>
+        <div class="big">&nbsp;</div>
+        <div class="bigest">
+            <q class="a"><h3>Хватит</h3></q>
+            <q class="b"><h3>это</h3></q>
+            <q class="b"><h3>терпеть!</h3></q>
+        </div>
+
+        <!--<img src="hvatit.jpg">-->
+    </div>
+
+
+    <div id="slide7" class="step" data-x="0" data-y="4000" data-rotate-y="90">
+        <img class="js" src="js.png"><b>+</b>
+        <img src="css3.png">
+    </div>
+
+
+    <div id="slide8" class="step" data-x="0" data-y="2000" data-scale="15" data-rotate-z="50">
+        <h1 class="impre">impress</h1><h1 class="dot">.</h1><h1 class="js">js</h1>
+    </div>
+
+
+    <div id="slide81" class="step needHide" data-x="0" data-y="2000" data-scale="10" data-rotate-z="70">
+        <q>Статистика Github</q>
+        <br>
+        <q>2 строчка среди проектов по количеству звездочек с одним автором</q>
+        <img src="./second.png"/>
+    </div>
+
+
+    <div id="slide9" class="step needHide" data-x="3000" data-y="0">
+        <h3>Основы основ</h3>
+    </div>
+
+
+    <div id="slide10" class="step needHide" data-x="3500" data-y="0" data-rotate-y="90">
+        <h5>Фреймворк работает с последовательностью слайдов, каждый слайд в терминологии фреймворка - шаг (<b>step</b>)</h5>
+    </div>
+
+
+    <div id="slide11" class="step needHide" data-x="3500" data-y="0" data-rotate-x="90">
+        <h5>Каждый слайд определяется с помощью обычных средств <b>HTML</b> и <b>CSS</b></h5>
+    </div>
+
+
+    <div id="slide12" class="step needHide" data-x="3500" data-y="0" data-rotate-y="90">
+        <h5>Все слайды размещаются в неком <b>трехмерном</b> &nbsp;пространстве</h5>
+        <img src="3d.png">
+    </div>
+
+
+    <div id="slide13" class="step needHide" data-x="-3000" data-y="1000" data-scale="7" data-rotate-y="45">
+        <h5>Возможны специальные&nbsp; <b>обзорные слайды</b>&nbsp;&nbsp;. В зависимости от своего&nbsp; <b>положения</b>&nbsp;, &nbsp;<b>ориентации в пространстве</b>&nbsp; и &nbsp;<b>масштаба</b>&nbsp;, отображают все доступные для обзора обычные слайды</h5>
+    </div>
+
+
+    <div id="slide14" class="step needHide" data-x="3500" data-y="0" data-rotate-x="180">
+        <h5>Для каждого слайда:</h5>
+        <h6>1)&nbsp; <b>координаты</b>&nbsp; (x, y, z) точки соответствующей центру слайда</h6>
+        <h6>2)&nbsp; <b>наклон (поворот)</b>&nbsp; слайда вокруг осей X, Y, и Z</h6>
+        <h6>3)&nbsp; <b>масштаб</b></h6>
+    </div>
+
+
+    <div id="slide15" class="step needHide" data-x="5000" data-y="2000" data-scale="15" data-rotate-z="50">
+        <q><h3>С основами все</h3></q>
+        <img src="slava.jpg">
+    </div>
+
+
+    <div id="slide16" class="step needHide" data-x="5000" data-y="2000" data-scale="10" data-rotate-z="50">
+        <q><h3>С чего начать?</h3></q>
+        <img src="nachat.jpg">
+    </div>
+
+
+    <div id="slide17" class="step needHide" data-x="5000" data-y="2000" data-scale="8" data-rotate-z="50">
+        <q><h3>
+            <b class="a">У</b>
+            <b class="b">с</b>
+            <b class="c">т</b>
+            <b class="d">а</b>
+            <b class="e">н</b>
+            <b class="f">о</b>
+            <b class="g">в</b>
+            <b class="h">к</b>
+            <b class="i">а</b>
+        </h3></q>
+        <h5><b class="link">https://github.com/bartaz/impress.js</b></h5>
+    </div>
+
+
+    <div id="slide18" class="step needHide" data-x="7000" data-y="2000" data-scale="8" data-rotate-y="91">
+        <q><h3>Чего есть внутри?</h3></q>
+        <img src="folder.png">
+    </div>
+
+
+    <div id="slide20" class="step needHide" data-x="7000" data-y="2000" data-scale="4">
+        <q><h3>Размещение слайдов:</h3></q>
+        <h6 class="code left">
+            &lt;div id="impress"&gt;<br>
+            &lt;!-здесь все слайды презентации-&gt;<br>
+            &lt;/div&gt;
+        </h6>
+    </div>
+
+    <div id="slide19" class="step needHide" data-x="7000" data-y="2000" data-scale="4">
+        <q><h3>Инициализация:</h3></q>
+        <h5 class="code">
+            &lt;script src="impress.js"&gt;&lt;/script&gt;
+            &lt;script&gt;
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;impress().init();
+            <br>
+            &lt;/script&gt;</h5>
+    </div>
+
+    <div id="slide21" class="step slide" data-x="6000" data-y="0">
+        <q>Первый шаг - без атрибутов</q>
+        <br>
+        <br>
+        <h6 class="code left">
+            &lt;div id="1" class="step slide"&gt;<br>
+            &nbsp;&nbsp;&nbsp;&lt;h1>Первый шаг - без атрибутов&lt;/h1&gt;<br>
+            &lt;/div&gt;
+        </h6>
+        <br>
+        <br>
+        <h6 class="code left second">
+            &lt;div id="2" class="step slide" data-x="1000" data-y="1000"&gt;<br>
+            &nbsp;&nbsp;&nbsp;&lt;h1&gt;Второй шаг - трансляция&lt;/h1&gt;<br>
+            &lt;/div&gt;
+        </h6>
+    </div>
+
+
+    <div id="slide22" class="step slide" data-x="7000" data-y="1000">
+        <q>Второй шаг - трансляция</q>
+        <br>
+        <br>
+        <h6 class="code left">
+            &lt;div id="3" class="step slide" data-x="3000" data-y="-1000" data-scale="4"&gt;<br>
+            &nbsp;&nbsp;&nbsp;&lt;h1&gt;Третий шаг - масштаб&lt;/h1&gt;<br>
+            &lt;/div&gt;
+        </h6>
+    </div>
+
+
+    <div id="slide23" class="step slide" data-x="9000" data-y="-1000" data-scale="4">
+        <q>Третий шаг - масштаб</q>
+        <br>
+        <br>
+        <h6 class="code left">
+            &lt;div id="4" class="step slide" data-x="-1700" data-y="-3000" data-rotate="180" data-scale="40"&gt;<br>
+            &nbsp;&nbsp;&nbsp;&lt;h1&gt;Четвертый шаг - поворот&lt;/h1&gt;<br>
+            &lt;/div&gt;
+        </h6>
+    </div>
+
+
+    <div id="slide24" class="step slide needHide" data-x="4300" data-y="-3000" data-rotate="180"  data-scale="40">
+        <q>Четвертый шаг - поворот</q>
+        <br>
+        <br>
+        <h6 class="code left">
+            &lt;div id="5" class="step" data-x="8000" data-y="-8100" data-rotate-x="30" data-rotate-z="-29"&gt;<br>
+            &nbsp;&nbsp;&nbsp;&lt;h1&gt;Пятый шаг&lt;/h1&gt;<br>
+            &lt;/div&gt;
+        </h6>
+    </div>
+
+
+    <div id="slide25" class="step slide needHide" data-x="14000" data-y="-8100" data-rotate-x="30" data-rotate-z="-29">
+        <q>Пятый шаг</q>
+        <br>
+        <br>
+        <h6 class="code left">
+            &lt;div id="6" class="step" data-x="0" data-y="0" data-scale="40"&gt;<br>
+            &nbsp;&nbsp;&nbsp;&lt;h1&gt;Шестой шаг - общий вид&lt;/h1&gt;<br>
+            &lt;/div&gt;
+        </h6>
+    </div>
+
+
+    <div id="slide26" class="step needHide" data-x="6000" data-y="0" data-scale="10">
+        <q>Шестой шаг - общий вид</q>
+    </div>
+
+
+    <div id="slide27" class="step needHide" data-x="3000" data-y="5000" data-scale="10">
+        <q>Авторские работы</q>
+    </div>
+
+
+    <div id="slide28" class="step needHide" data-x="3000" data-y="5000" data-scale="10" data-rotate-x="45">
+        <img src="./dyapos.png"/>
+        <q><h3>Graphic web editor for Impress.js</h3></q>
+        <h6 class="code center">http://www.dyapos.net/</h6>
+    </div>
+
+
+    <div id="slide29" class="step needHide" data-x="3000" data-y="5000" data-scale="10" data-rotate-x="92">
+        <img src="./strut.png"/>
+        <br>
+        <h6 class="code center">http://strut.io/</h6>
+    </div>
+
+
+    <div id="slide30" class="step needHide" data-x="3000" data-y="5000" data-scale="10" data-rotate-x="135">
+        <q><h3><b>impress.js S9</b></h3></q>
+        <q><h4><b>Template Pack</b></h4></q>
+        <q>Ruby gem</q>
+        <br>
+        <q><h5>Пишем слайды используя Markdown или Textile</h5></q>
+        <h6 class="code center">http://slideshow-s9.github.io/slideshow-impress.js/</h6>
+    </div>
+
+
+    <div id="slide31" class="step needHide" data-x="3000" data-y="5000" data-scale="10">
+        <q>Плагины</q>
+    </div>
+
+
+    <div id="slide32" class="step needHide" data-x="3000" data-y="5000" data-scale="10" data-rotate-x="180">
+        <q><h4><b>impress-audio.js</b></h4></q>
+        <q><h5>Куда же без музыки в презентации :)</h5></q>
+        <h6 class="code center">https://github.com/danielsimons1/impress-audio</h6>
+    </div>
+
+
+    <div id="slide33" class="step needHide" data-x="3000" data-y="5000" data-scale="10" data-rotate-x="180" data-rotate-y="45">
+        <q><h4><b>impress.js-progress</b></h4></q>
+        <q><h5>Progress-bar для Вашей презентации</h5></q>
+        <h6 class="code center">https://github.com/m42e/impress.js-progress</h6>
+    </div>
+
+
+    <div id="slide35" class="step needHide" data-x="3000" data-y="5000" data-scale="20" data-rotate-y="45" data-rotate-z="90">
+        <q><h4><b>Минусы:</b></h4></q>
+        <img src="1296070207.jpg">
+    </div>
+    <div id="slide351" class="step needHide" data-x="3000" data-y="5000" data-scale="20" data-rotate-y="60" data-rotate-z="100">
+        <q><h6>Отсутствуют предустановленные темы для дизайна презентаций</h6></q>
+    </div>
+    <div id="slide352" class="step needHide" data-x="3000" data-y="5000" data-scale="20" data-rotate-y="70" data-rotate-z="110">
+        <q><h6>Проблемы в отображении на touch-устройствах</h6></q>
+    </div>
+    <div id="slide353" class="step needHide" data-x="3000" data-y="5000" data-scale="20" data-rotate-y="80" data-rotate-z="120">
+        <q><h6>Нет событий для каждого отдельного слайда</h6></q>
+    </div>
+    <div id="slide354" class="step needHide" data-x="3000" data-y="5000" data-scale="20" data-rotate-y="91" data-rotate-z="141">
+        <q><h6>Много нужно писть ручками</h6></q>
+        <img src="./programmer.jpg">
+    </div>
+    <div id="slide355" class="step needHide" data-x="3000" data-y="5000" data-scale="20" data-rotate-y="100" data-rotate-z="160">
+        <q><h6>IE как всегда на высоте</h6></q>
+        <img src="./ie.png">
+    </div>
+    <div id="slide356" class="step needHide" data-x="3000" data-y="5000" data-scale="20" data-rotate-y="100" data-rotate-z="160">
+        <q><h6>Не самая лучшая документация</h6></q>
+    </div>
+    <div id="slide357" class="step needHide" data-x="3000" data-y="5000" data-scale="20" data-rotate-y="45" data-rotate-z="90">
+        <q><h4><b>Плюсы:</b></h4></q>
+        <img src="./cat.jpeg">
+    </div>
+    <div id="slide358" class="step needHide" data-x="3000" data-y="5000" data-scale="20" data-rotate-y="60" data-rotate-z="70">
+        <q><h6>Плагины упрощают жизнь</h6></q>
+    </div>
+    <div id="slide359" class="step needHide" data-x="3000" data-y="5000" data-scale="20" data-rotate-y="40" data-rotate-z="50">
+        <q><h6>Есть возможно расширения библиотеки</h6></q>
+    </div>
+    <div id="slide360" class="step needHide" data-x="3000" data-y="5000" data-scale="20" data-rotate-y="40" data-rotate-z="50">
+        <q><h6>Кроссбраузерность:</h6></q>
+        <br>
+        <q>Chrome/Chromium, Safari, Firefox, IE 11</q>
+    </div>
+
+
+
+    <div id="slide36" class="step needHide" data-x="3000" data-y="5000" data-scale="20" data-rotate-y="45" data-rotate-z="180">
+        <q><h2><b>Any questions?</b></h2></q>
+    </div>
+
+
+    <div id="slide37" class="step" data-x="0" data-y="2000" data-scale="15" data-rotate-z="50">
+        <h1 class="impre">impress</h1><h1 class="dot">.</h1><h1 class="js">js</h1>
+    </div>
+    <div id="slide38" class="step needHide" data-x="0" data-y="2000" data-scale="30" data-rotate-z="240">
+        <h3>Андрей Козяков</h3>
+        <div style="text-align: left; position: relative; left: 220px">
+            <div>
+                <img src="./fb.png" style="height: 120px;width: 120px;">
+                <span style="position:relative; top:-45px;">&nbsp;/kosiakoff</span>
+            </div>
+            <div>
+                <img src="./twitter.png" style="height: 120px;width: 120px;">
+                <span style="position:relative; top:-40px;">&nbsp;/kosiak_man</span>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="client/impress.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        impress().init();
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
